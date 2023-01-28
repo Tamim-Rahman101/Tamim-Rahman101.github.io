@@ -1,115 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<!-- <style>
-    table,
-    th,
-    td {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-</style> -->
+  <head>
+  	<title>Contact Form 01</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamim Rahman</title>
-</head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
-<body>
-    <div>
-        <img src="img/tamim.jpg" alt="Tamim Rahman" width="200" height="200">
-        <p> 
-            <b style="font-size: 25px;" >Tamim Rahman</b><br>
-            Student, University of Rajshahi
-        </p>
-    </div>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
 
-    <div>
-        <table style="width: 300px;">
-            <tr>
-                <th>Email: </th>
-                <td>tamim101rahman@gmail.com</td>
-            </tr>
-            <tr>
-                <th>Github: </th>
-                <td><a href="https://github.com/Tamim-Rahman101">Tamim-Rahman101</a></td>
-            </tr>
-            <tr>
-                <th>LinkedIn: </th>
-                <td><a href="https://www.linkedin.com/in/tamim-rahman101/">tamim-rahman101</a></td>
-            </tr>
-        </table>
-    </div>
-    
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12 col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-md-7 d-flex align-items-stretch">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3> Write Us</h3>
+									<h5 class="mb-4"> Lets discuss and work together.</h5>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" action="mailto:tamim101rahman@gmail.com" enctype="text/plain">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
 
-    <h3><u>Hello there!</u></h3>
-    <p>
-        I am Tamim Rahman. Currently studying <b>Computer Science and Engineering</b> at <b>University of Rajshahi</b>.
-        I am very much interested in learning something out of academic context which makes me even more dedicated to
-        that.
-    </p>
+							
+							<div class="col-md-5 d-flex align-items-stretch">
+								<div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+									<h3 class="mb-5 mt-md-4">Contact us</h3>
+									<h5></h5>
+									
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-map-marker"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Location:</span> Amzader More, Binodpur, Rajshahi </p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-phone"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Phone:</span> <a href="tel://+8801234567890"> +8801234567890</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-paper-plane"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Email:</span> <a href="mailto:tamim101rahman@gmail.com"> tamim101rahman@gmail.com</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-globe"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Website:</span> <a href="https://tamim-rahman101.github.io/"> Tamim-Rahman101</a></p>
+					          </div>
+				          </div>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
 
-    <h3><u>Educational Qualifications:</u></h3>
-    <table style="width: 750px; ;">
-        <tr>
-            <th>Exam/Degree</th>
-            <th>Group/Subject</th>
-            <th>Board/Institute</th>
-            <th>GPA/CGPA</th>
-            <th>Passing Year</th>
-        </tr>
-        <tr>
-            <th>BSc</th>
-            <td>
-                <center>Computer Science and Engineering</center>
-            </td>
-            <td>
-                <center>University of Rajshahi</center>
-            </td>
-            <td>In progress</td>
-            <td>In progress</td>
-        </tr>
-        <tr>
-            <th>HSC</th>
-            <td>
-                <center>Science</center>
-            </td>
-            <td>
-                <center>Dhaka Board</center>
-            </td>
-            <td>5.00</td>
-            <td>2019</td>
-        </tr>
-        <tr>
-            <th>SSC</th>
-            <td>
-                <center>Science</center>
-            </td>
-            <td>
-                <center>Dhaka Board</center>
-            </td>
-            <td>5.00</td>
-            <td>2017</td>
-        </tr>
-    </table>
-
-    <h3><u>Hobby:</u></h3>
-    <ul>
-        <li>Gardening</li>
-        <li>Traveling</li>
-        <li>Watching Movies</li>
-    </ul>
-
-    <h3><u>Languages:</u></h3>
-    <ul>
-        <li>C</li>
-        <li>C++</li>
-        <li>JAVA</li>
-        <li>Pyton</li>
-    </ul>
-
-</body>
-
+	</body>
 </html>
+
